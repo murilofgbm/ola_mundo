@@ -1,0 +1,4 @@
+disable=
+    C0114, # missing-module-docstring
+    C0304
+    #desabilitar o sublinhado azul, só aparece erros verdadeiros
