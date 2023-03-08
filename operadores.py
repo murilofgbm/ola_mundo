@@ -7,4 +7,4 @@ print(variavel_a-variavel_b) #inteiro
 print(variavel_a*variavel_b) #inteiro
 print(variavel_a/variavel_b) #float
 
-print("Meu nome é " + meu_nome) #String
+print("Meu nome é " + meu_nome) #String 
