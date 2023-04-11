@@ -1,6 +1,7 @@
-A = float(input())
-B = float(input())
-C = float(input())
+linha = input().split()
+A = float(linha[0])
+B = float(linha[1])
+C = float(linha[2])
 delta = B*B - 4*A*C
 if delta < 0 or A == 0:
     print("Impossivel calcular")

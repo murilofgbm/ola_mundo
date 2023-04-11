@@ -1,6 +1,8 @@
-A = round(float(input()), 1)
-B = round(float(input()), 1)
-C = round(float(input()), 1)
+linha = input().split()
+
+A = float(linha[0])
+B = float(linha[1])
+C = float(linha[2])
 
 pi = 3.14159
 area_triangulo = (A*C)/2

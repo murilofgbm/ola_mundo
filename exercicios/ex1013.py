@@ -1,6 +1,7 @@
-a = int(input())
-b = int(input())
-c = int(input())
+linha = input().split()
+a = int(linha[0])
+b = int(linha[1])
+c = int(linha[2])
 
 if a>b and a>c: 
     print(f"{a} eh o maior")
