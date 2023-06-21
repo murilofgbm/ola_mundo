@@ -1,0 +1,30 @@
+class Numero():
+    def __init__(self):
+        self.n1 = 1
+        self.n2 = 2
+        self.n3 = 3
+
+    def print(self):
+        intervalo = [i / 10 for i in range(0, 21, 2)]
+        for n in intervalo:
+            for _ in range(3):  # Loop para repetir a saída com os três valores
+                print(f"I={n:.1f} J={self.n1:.1f}")
+                print(f"I={n:.1f} J={self.n2:.1f}")
+                print(f"I={n:.1f} J={self.n3:.1f}")
+                self.n1 += 0.2
+                self.n2 += 0.2
+                self.n3 += 0.2
+            self.n1 = 1  # Redefinindo os valores originais
+            self.n2 = 2
+            self.n3 = 3
+
+numero = Numero()
+numero.print()
+
+
+
+
+
+
+
+
